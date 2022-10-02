@@ -20,3 +20,7 @@ The answer to this is MetalLB. It supports both [Layer2](https://metallb.univers
 1. [Install and configure Ingress](./docs/02-install-ingress.md). After this step, Ingress will use MetalLB to expose services.
 
 All the inline YAML documents found in the above steps can be also be found in the [Manifests](./manifests/) folder.
+
+## Next Steps
+
+Should you wish to explore how to configure your ingress to serve https sites, then check out my next guide [here](https://github.com/fireflycons/howto-create-pki-for-private-cluster).
