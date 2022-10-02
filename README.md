@@ -1,7 +1,5 @@
 # Installing and configuring MetalLB for your non-cloud cluster
 
-https://platform9.com/blog/using-metallb-to-add-the-loadbalancer-service-to-kubernetes-environments/
-
 Lets assume you have created a home Kubernetes cluster (e.g. [like this](https://github.com/fireflycons/kubeadm-on-ubuntu-jammy)), then the next task at hand is to be able to expose services to the internal network.
 
 This is one of the first use cases you may run into. What is the next step? Are you going to use the NodePort service and manage your own LoadBalancer to distribute traffic? Are you going to expose the ClusterIP network, or manage LoadBalancers that point to ClusterIPs? If you deploy an ingress controller, how will that be reached from the outside? How would this translate to a production environment where the LoadBalancer service is available?
