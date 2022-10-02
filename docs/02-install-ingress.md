@@ -121,4 +121,11 @@ Commercial support is available at
 </html>
 ```
 
+# Setting up DNS
+
+If you have a DNS infrastructure on your network, then you should add the ingress service's endpoint to the DNS. Create an `A` record in the DNS with a name like `mycluster-ingress` or however you refer to your cluster, with the IP address you got from the section above.
+
+If you don't have a DNS, then add the same record to the `hosts` file on all machines that will be using the cluster.
+
+
 
